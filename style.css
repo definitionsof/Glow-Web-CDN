@@ -1,0 +1,236 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p,li,ul{
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+body{
+	font-family: 'Readex Pro', sans-serif;
+	background-color: #151514;
+	font-size: 16px;
+	color: #fff;
+}
+body::-webkit-scrollbar{
+	width: 0px;
+}
+body::-webkit-scrollbar-track{
+	background-color: #151514;
+}
+body::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: #077ff3;
+}
+#preloader{
+	width: 100%;
+	height: 100vh;
+	background: #000 url("../images/loader.svg") no-repeat center;
+	position: fixed;
+	background-size: 250px;
+	z-index: 99999;
+}
+#preloader img{
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 300ms, opacity 300ms ease-out;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+.menu_bg{
+	background-color: #151514;
+	z-index: 99990;
+	padding: 8px 0 !important;
+}
+.logo-box a img{
+	width: 250px;
+}
+.menu-box{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.menu-box a{
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	color: #fff;
+	transition: .3s;
+}
+.menu-box a:hover{
+	color: #077ff3;
+}
+.buy-btn,.btn-see{
+	padding: 10px 20px;
+	border: 1px solid #077ff3;
+	border-radius: 5px;
+	color: #077ff3 !important;
+  transition: 0.3s;
+}
+.buy-btn:hover, .btn-see:hover {
+	background-color: #077ff3;
+	color: #fff !important;
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+	background-color: #151514;
+}
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+	background-color: #151514;
+}
+.off-logo{
+	width: 230px;
+}
+.hero{
+	padding-top: 165px !important;
+}
+.hero-content h1,.features-header h1,.img-slider-text h1,.subscription-slider-text h1,.testi-text h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+span {
+	color: #077ff3;
+}
+.subscription-body {
+	text-align: left;
+}
+.subscription-body-feature {
+	font-weight: 100;
+	color: #adadad;
+}
+.subscription-body-price {
+	font-size: 15px;
+	font-weight: 100;
+}
+.subscription-body-price span {
+	font-size: 17px;
+	font-weight: normal;
+	color: #adadad;
+}
+#purchase {
+	padding: 10px 82px;
+}
+.large-text {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.last-sp {
+	margin: auto;
+	background-color: inherit;
+	width: 50%;
+}
+.dashboard-body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.dashboard-download {
+	background: #191919;
+	padding: 50px;
+}
+.dashboard-body .footer {
+	margin-top: auto;
+}
+.features{
+	background-color: #191919;
+}
+.showcase {
+	display: contents;
+}
+.showcase-image {
+	width: 95%;
+	max-width: 605px;
+}
+.benefit {
+	width: 315px;
+	margin: auto;
+}
+.features-card-box{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 35px;
+}
+.subscription-card-box{
+	display: ruby;
+	width: auto;
+}
+.subscription {
+	margin-top: 5px;
+}
+.single-features{
+	padding: 30px;
+	border-radius: 10px;
+	background-color: #151514;
+	text-align: center;
+	transition: .3s;
+}
+.single-features h3,.join-box h3{
+	font-size: 25px;
+}
+.single-features:hover{
+  box-shadow: 0 5px 50px #151514;
+  scale: 1.05;
+}
+.img-slider-text h1{
+	font-size: 55px;
+}
+.subscription-slider{
+	background-color: #191919;
+}
+.join-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sub-btn,.buy-btn-box a{
+	padding: 10px 22px;
+	background-color: #077ff3;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #077ff3;
+	transition: .3s;
+}
+.sub-btn:hover,.buy-btn-box a:hover{
+	background-color: transparent;
+	color: #077ff3;
+}
+.why-choose{
+	background-color: #191919;
+}
+.choose-text h2{
+	font-size: 40px;
+	font-weight: 900;
+}
+.choose-box{
+	margin-top: -48px;
+	padding: 50px 30px;
+}
+.choose-box p{
+	display: grid;
+	grid-template-columns: 12px 1fr;
+	gap: 12px;
+}
+.footer{
+	background-color: #121212;
+}
+.footer-text p{
+	font-size: 13px;
+}
